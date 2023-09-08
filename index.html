@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body class="flex">
+    <header class="flex">
+      <span class="slack-name fs-700 uppercase bold" data-testid="slackUserName"
+        >Bright</span
+      >
+      <img
+        class="profile-img"
+        data-testid="slackDisplayImage"
+        src="image/slack-dp.jpg"
+        alt="Bright"
+      />
+    </header>
+    <p>
+      <span class="fw-300">Day of the Week:</span>
+      <span class="current-day bold" data-testid="currentDayOfTheWeek"></span>
+    </p>
+    <p>
+      <span class="fw-300">Current UTC Time: </span
+      ><span
+        class="current-time bold accent-color"
+        data-testid="currentUTCTime"
+      ></span>
+    </p>
+    <p>
+      <span class="fw-300">Track: </span
+      ><span class="bold" data-testid="myTrack">Frontend Track</span>
+    </p>
+    <p>
+      <span class="fw-300">Github Link:</span>
+      <a class="italic primary-color" href="http://github.com/Brighties"
+        >Github Link</a
+      >
+    </p>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
